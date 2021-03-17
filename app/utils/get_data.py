@@ -16,6 +16,7 @@ from .helper import (helper_df_cleaning, helper_df_cols_cleaning,
 
 
 # Get Lookup table
+Class LookupTable:
 def get_data_lookup_table() -> Dict[str, str]:
     """ Get lookup table (country references for iso2) """
     lookup_table_url = JHU_CSSE_FILE_PATHS['BASE_URL_LOOKUP_TABLE']
